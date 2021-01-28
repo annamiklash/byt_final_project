@@ -19,10 +19,6 @@ public class Reservation  {
 
     }
 
-    public void cancelReservation() {
-        System.out.println("reservation cancelled");
-    }
-
     public void setReservationDate(LocalDate reservationDate) {
         this.reservationDate = reservationDate;
     }

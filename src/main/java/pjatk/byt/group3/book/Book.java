@@ -11,8 +11,6 @@ import pjatk.byt.group3.reservation.Reservation;
 import java.awt.image.BufferedImage;
 import java.math.BigInteger;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Book {
 
@@ -32,14 +30,6 @@ public class Book {
         this.ISBN = ISBN;
         this.image = image;
         this.bookStatus = StatusEnum.AVAILABLE;
-    }
-
-    public List<Book> searchByTitle(String title) {
-        return new ArrayList<>();
-    }
-
-    public List<Book> searchByAuthor(String author) {
-        return new ArrayList<>();
     }
 
     public Book searchByISBN(BigInteger ISBN) {
